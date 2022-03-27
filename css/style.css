@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Slab:wght@600&family=Kaushan+Script&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  margin: 0;
+  /* margin-bottom: 20px; */
+  font-size: 700%;
+  color: #C0A080;
+  -webkit-text-stroke: 0.05px black;
+  text-shadow: 2px 2px black;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Arvo';
+  font-weight: 600;
+  font-size: 300%;
+  -webkit-text-stroke: 0.01px black;
+  color: #5B7DB1;
+  text-shadow: 1px 2px #D1D1D1;
+}
+
+h3 {
+  font-family: 'Arvo';
+  -webkit-text-stroke: 0.01px black;
+  color: #5B7DB1;
+  margin: 30px auto 30px auto;
+}
+
+p {
+  margin: 0;
+}
+hr {
+
+  color: #C0A080;
+  border-width: 10px;
+  border-style: dotted none none;
+  width: 5%;
+  margin: 70px auto 70px auto;
+}
+
+/***************** CLASS SELECTORS ************************/
+.top-container {
+  background-color: #7882A4;
+
+  padding-top: 50px;
+  color: #D1D1D1;
+}
+
+.middle-container {
+
+  padding: 80px 0 80px;
+  background-color: #F5F5F5;
+
+}
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Kaushan Script';
+  color: #5B7DB1;
+  font-size: 20px;
+  background: D1D1D1;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #C0A080;
+  text-decoration: none;
+}
+.bottom-container {
+  height: 100px;
+  padding: 50px 0 0 0;
+  background-color: #D1D1D1;
+}
+/* .center {
+  width: 40%;
+  margin: 0 auto;
+} */
+/* .paragraph-margin {
+  margin-bottom:10px;
+} */
+
+.footer-link {
+margin-right: 30px;
+text-decoration: none;
+color: #C0A080;
+}
+.footer-text {
+  margin: 30px;
+}
+
+.top-cloud {
+  position: relative;
+  margin-bottom: 10px;
+  left: 230px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+.skill-image {
+  width:25%;
+  height:25%;
+
+}
+.float-left {
+  float: left;
+  margin-right: 30px;
+}
+.float-right {
+  float: right;
+  margin-left: 30px;
+}
+.top-paragraph {
+  font-size: 200%;
+}
+/* .skill-text {
+
+  border-radius: 1%;
+  padding: 20px;
+  background-color: #C0A080;
+  color: black;
+    -webkit-text-stroke: 0.05px black;
+} */
